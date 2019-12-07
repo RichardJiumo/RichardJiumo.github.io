@@ -1,20 +1,45 @@
-h1 {
-    color: #330099;
-    font-family: Cursive;
-  }
-  body
-  { 
-    background-image:url('./背景.gif');
-    background-repeat:no-repeat;
-    background-position:center;
-    font: 1em/150% Helvetica, Arial, Cursive ;
-    padding: 1em;
-    margin: 0 auto;
-    max-width: 33em;
-  }
-  .instruction
-  {
-    color: #bdb6c9;
-  }
-  .introduce
-  {color: white;}
+
+body {
+    background-image: url('./背景.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    font: 3em/150% Helvetica, Arial, Cursive;
+}
+.left {
+    width: 200px;
+    height: 400px;
+    background-color: rgb(155, 13, 131);
+    float: left;
+    margin-left: -100%;
+    text-align: center;
+}
+.right {
+    width: 200px;
+    height: 400px;
+    background-color: rgb(125, 211, 252);
+    float: left;
+    margin-left: -200px;
+    text-align: center;
+}
+.main {
+    width: 100%;
+    height: 50px;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 600px; //文字不被覆盖
+    text-align: center;
+    color: rgb(155, 13, 131);
+}
+.audio {
+    width: 60%;
+    height: 100px;
+    float: center;
+    box-sizing: border-box;
+    padding-left: 500px;
+    text-align: center;
+}
+.word {
+    padding-left: 400px;
+    padding-top: 500px;
+    color: rgb(64, 211, 72);
+}
